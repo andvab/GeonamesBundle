@@ -23,7 +23,7 @@
   },
   "autoload"   : {
     "psr-4": {
-      "Andvab\\Bundle\\GeonamesBundle\\": ""
+      "Andvab\\GeonamesBundle\\": ""
     }
   }
 }

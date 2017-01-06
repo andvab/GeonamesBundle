@@ -16,7 +16,7 @@ or add to composer.json
 
     $bundles = array(
         // ...
-        new Andvab\Bundle\GeonamesBundle\GeonamesBundle(),
+        new Andvab\GeonamesBundle\AndvabGeonamesBundle(),
         // ...
     );
 
