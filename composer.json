@@ -1,0 +1,29 @@
+{
+  "name"       : "andvab/geonames-bundle",
+  "type"       : "symfony-bundle",
+  "description": "Geonames bundle. Create tables and populate them with data from the service Geonames.org",
+  "branches"   : [
+    "master"
+  ],
+  "version" : "1.0.0",
+  "homepage": "",
+  "license" : "MIT",
+  "keywords"   : [
+    "geonames",
+    "symfony2"
+  ],
+  "authors"    : [
+    {
+      "name" : "Varnavskiy Andrey",
+      "email": "r300s5c154@yandex.ru"
+    }
+  ],
+  "require"    : {
+    "symfony/symfony": ">=2.6"
+  },
+  "autoload"   : {
+    "psr-4": {
+      "Andvab\\Bundle\\GeonamesBundle\\": ""
+    }
+  }
+}

@@ -1,0 +1,20 @@
+services:
+    andvab_geonames.manager.geonames_manager:
+        class: Andvab\GeonamesBundle\Manager\GeonamesManager
+        arguments: ["@doctrine.orm.entity_manager"]
+
+    andvab_geonames.manager.countries_manager:
+        class: Andvab\GeonamesBundle\Manager\CountriesManager
+        arguments: ["@doctrine.orm.entity_manager"]
+
+    andvab_geonames.manager.alternate_names_manager:
+        class: Andvab\GeonamesBundle\Manager\AlternateNamesManager
+        arguments: ["@doctrine.orm.entity_manager"]
+
+    andvab_geonames.manager.admin1_codes_manager:
+        class: Andvab\GeonamesBundle\Manager\Admin1CodesManager
+        arguments: ["@doctrine.orm.entity_manager"]
+
+    andvab_geonames.manager.admin2_codes_manager:
+        class: Andvab\GeonamesBundle\Manager\Admin2CodesManager
+        arguments: ["@doctrine.orm.entity_manager"]
