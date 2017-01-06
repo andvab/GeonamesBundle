@@ -2,9 +2,23 @@
 ## Installation
 **Install the bundle using composer:**
 
+    composer require andvab/geonames-bundle
+
 or add to composer.json
 
+    {
+        require: {
+            "andvab/geonames-bundle": "*"
+        }
+    }
+
 **Add the bundle to your AppKernel.php:**
+
+    $bundles = array(
+        // ...
+        new Andvab\Bundle\GeonamesBundle\GeonamesBundle(),
+        // ...
+    );
 
 **Install or update database schema:**
 
