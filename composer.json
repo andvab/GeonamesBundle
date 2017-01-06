@@ -6,7 +6,7 @@
     "master"
   ],
   "version" : "1.0.0",
-  "homepage": "",
+  "homepage": "https://github.com/andvab/GeonamesBundle",
   "license" : "MIT",
   "keywords"   : [
     "geonames",
