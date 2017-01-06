@@ -24,6 +24,16 @@ or add to composer.json
 
     console doctrine:schema:update --force
 
+**Add prameter**
+
+path/to/project/app/config/parameters.yml
+
+    parameters:
+        ...
+        andvab_geonames.feature_classes: [A,H,L,P,T,U,V]
+    
+The default value for this variable set: [A,H,L,P,T,U,V]. Learn more about the values of feature classes can be about to read the link - http://download.geonames.org/export/dump/         
+        
 ## Commands:
 **1) Clear the table "alternate_names".**
 
