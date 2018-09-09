@@ -28,7 +28,7 @@ class GeonamesUpdateAdmin2Command extends GeonamesCommand
      */
     protected function execute(InputInterface $input, OutputInterface $output)
     {
-        $em                 = $this->getContainer()->get('doctrine.orm.'.$this->getContainer()->getParameter('geonames.entity_manager'));
+        $em                 = $this->getContainer()->get('doctrine.orm.entity_manager'));
         $managerAdmin2Codes = $this->getContainer()->get('andvab_geonames.manager.admin2_codes_manager');
 
         $output->writeln('<info>> Start update table admin2_codes</info>');
