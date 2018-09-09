@@ -50,7 +50,6 @@ class GeonamesManager
         $geoname->setGeonameId(array_key_exists(0, $data) ? $data[0] : null);
         $geoname->setName(array_key_exists(1, $data) ? $data[1] : null);
         $geoname->setAsciiName(array_key_exists(2, $data) ? $data[2] : null);
-        $geoname->setAlternateNames(array_key_exists(3, $data) ? $data[3] : null);
         $geoname->setLatitude(array_key_exists(4, $data) ? $data[4] : null);
         $geoname->setLongitude(array_key_exists(5, $data) ? $data[5] : null);
         $geoname->setFeatureClass(array_key_exists(6, $data) ? $data[6] : null);
